@@ -1,4 +1,6 @@
-# TENGO 4 SWITCH DE ACCESO, DONDE CADA VLAN PERTENECE A UN SWTCH, CADA 2 SWTCH VAN A UN SWITCH MULTILAYER, EN TOTAL DOS MULTILAYER CONECTAN A UN SOLO MULTILAYER FINALMENTE AL ROUTER. TAL Y COMO SE MUESTRA EN LA IMAGEN QUIERO QUE ME LO CONFIGURES PASO A PASO DESDE LOS SWICT DE ACCESOS HASTA ROUTER.
+# CONFIGURACIÓN
+
+<img width="1435" height="672" alt="Image" src="https://github.com/user-attachments/assets/4cb960b7-c508-457c-bb45-2a3afed31c04" />
 
 ## Paso a paso: Configuración para tu topología
 Este guía usa el router-on-a-stick: el router realiza el enrutamiento entre VLANs. Todos los switches, incluidos los multilayer, operan como switches capa 2 (sin ip routing y sin SVIs para datos). La VLAN 99 es nativa y administrativa.
